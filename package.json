@@ -15,6 +15,7 @@
     "react",
     "custom-components"
   ],
+  "private": false,
   "author": "Local.com.pk",
   "contributors": [
     {
