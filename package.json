@@ -1,7 +1,7 @@
 {
-  "name": "custom-components",
-  "version": "1.0.0",
-  "description": "Custom ReactJS components",
+  "name": "@localpk/custom-components",
+  "version": "0.0.1",
+  "description": "Custom ReactJS components from Local PK",
   "main": "index.js",
   "scripts": {
     "test": "npm run test"
@@ -16,13 +16,20 @@
     "custom-components"
   ],
   "author": "Local.com.pk",
+  "contributors": [
+    {
+      "name": "Jabran Rafique",
+      "email": "hello@jabran.me"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/localpk/custom-components/issues"
   },
   "homepage": "https://github.com/localpk/custom-components#readme",
-  "dependencies": {
+  "devDependencies": {
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "bootstrap": "^4.2.1"
   }
 }

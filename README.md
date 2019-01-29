@@ -9,7 +9,7 @@ Custom ReactJS components used by Local PK.
 
 Here is the list of Custom Components available for Local PK content:
 
-### `<highlighted-numbers>`
+### `<featured-numbers>`
 
 _Attributes_
 
@@ -21,12 +21,12 @@ This component is used to display numbers prominently. A description is required
 
 _Example_
 
-```html
-<highlighted-numbers data='[
+```
+<featured-numbers data='[
   {"numbers":"342", "description": "Total number of members"},
   {"numbers":"272", "description": "Directly elected members"}
 ]'
-></highlighted-numbers>
+></featured-numbers>
 ```
 
 Above code example renders following:

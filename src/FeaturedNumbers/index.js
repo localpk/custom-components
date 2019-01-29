@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-export default function HighlightedNumbers({ data }) {
+export default function FeaturedNumbers({ data }) {
   const dataAsArray = JSON.parse(data);
 
   return (
